@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0x████ | Dossier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1><span class="prompt">root@kali~#</span> whoami</h1>
+            <h2 class="glitch" data-text="[REDACTED]">[TYXIROS]</h2>
+            <p class="tagline"><span class="blink">_</span>Penetration Tester | Red Team Operator | Vulnerability Researcher</p>
+        </header>
+
+        <div class="terminal">
+            <!-- NAV -->
+            <nav class="term-nav">
+                <a href="#skills">[~skills]</a>
+                <a href="#proof">[~proof_of_concept]</a>
+                <a href="#labs">[~home_lab]</a>
+                <a href="#contact">[~/connect]</a>
+            </nav>
+
+            <!-- SKILLS SECTION -->
+            <section id="skills">
+                <h3><span class="prompt">$</span> cat /skills/tools.txt</h3>
+                <div class="skills-grid">
+                    <div class="skill-cat">
+                        <h4>Recon & Enumeration</h4>
+                        <p>Nmap | Masscan | theHarvester | Maltego | SpiderFoot | Shodan</p>
+                    </div>
+                    <div class="skill-cat">
+                        <h4>Vulnerability Assessment</h4>
+                        <p>Burp Suite | Nessus | Nikto | Nuclei | Metasploit-Framework</p>
+                    </div>
+                    <div class="skill-cat">
+                        <h4>Exploitation</h4>
+                        <p>Manual SQLi | XSS | CSRF | Buffer Overflows | Privilege Escalation (Win/Lin)</p>
+                    </div>
+                    <div class="skill-cat">
+                        <h4>Post-Exploitation & C2</h4>
+                        <p>Mimikatz | Impacket | PowerShell Empire | Cobalt Strike | Custom Shells</p>
+                    </div>
+                    <div class="skill-cat">
+                        <h4>Defensive Insight</h4>
+                        <p>SIEM (Splunk) | EDR Bypass | Log Analysis | Threat Hunting | MITRE ATT&CK Mapping</p>
+                    </div>
+                    <div class="skill-cat">
+                        <h4>Languages & OS</h4>
+                        <p>Python | Bash | PowerShell | C | SQL | Windows/Linux Administration</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROOF OF CONCEPT SECTION -->
+            <section id="proof">
+                <h3><span class="prompt">$</span> ls -la /root/proofs/</h3>
+                <div class="proof-grid">
+                    <!-- REPLACE THESE WITH YOUR ACTUAL SCREENSHOTS -->
+                    <div class="proof-item">
+                        <div class="proof-img">[IMG: VulnHub Machine - 'Fawn' Root Proof]</div>
+                        <p>VulnHub: Fawn - Initial Compromise & Root</p>
+                    </div>
+                    <div class="proof-item">
+                        <div class="proof-img">[IMG: HTB Starting Point - 'Meow' User Flag]</div>
+                        <p>HackTheBox: Meow - Flag Capture</p>
+                    </div>
+                    <div class="proof-item">
+                        <div class="proof-img">[IMG: Custom Python Script Output]</div>
+                        <p>Custom Tool: Network Scanner v1.0</p>
+                    </div>
+                    <div class="proof-item">
+                        <div class="proof-img">[IMG: Burp Suite - SQLi Exploit]</div>
+                        <p>DVWA: Full SQLi Exploitation Chain</p>
+                    </div>
+                </div>
+                <p class="note">// Note: All activities conducted in controlled, legal lab environments.</p>
+            </section>
+
+            <!-- HOME LAB SECTION -->
+            <section id="labs">
+                <h3><span class="prompt">$</span> systemctl status home-lab.service</h3>
+                <div class="lab-desc">
+                    <p><strong>ACTIVE</strong> - Proxmox VE Hypervisor</p>
+                    <ul>
+                        <li>▶ Kali Linux (Attack Box)</li>
+                        <li>▶ Windows 10/11 (Hardened & Vulnerable Targets)</li>
+                        <li>▶ Windows Server 2019 (Active Directory Domain Controller)</li>
+                        <li>▶ Ubuntu/CentOS Servers (Web Apps, Databases)</li>
+                        <li>▶ PFSense Firewall (Network Segmentation & Traffic Analysis)</li>
+                        <li>▶ SIEM Instance (Splunk/Wazuh for Detection Testing)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact">
+                <h3><span class="prompt">$</span> ./connect.sh --method secure</h3>
+                <div class="contact-links">
+                    <a href="https://github.com/0x11ACE" target="_blank">[GitHub]</a>
+                    <a href="https://tryhackme.com/p/yourprofile" target="_blank">[TryHackMe]</a>
+                    <a href="https://app.hackthebox.com/profile/yourid" target="_blank">[HackTheBox]</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">[LinkedIn]</a>
+                    <a href="mailto:contact@example.com">[PGP]</a> <!-- Link to PGP key -->
+                </div>
+                <pre class="pgp">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+[Public PGP Key - 0000000000000000]
+-----END PGP PUBLIC KEY BLOCK-------
+                </pre>
+            </section>
+
+                        <!-- FOOTER -->
+            <footer>
+                <p><span class="prompt">$</span> <span id="typing-effect"></span><span class="blink">_</span></p>
+                <p class="copyright">// Last Updated: [Current Date] | This site contains no tracking, no JavaScript bloat, only static truth.</p>
+            </footer>
+        </div>
+    </div>
+    <!-- TYPING EFFECT SCRIPT -->
+    <script>
+        const phrases = [
+            "whois",
+            "cat /root/mission.txt",
+            "nmap -sV -O target",
+            "sqlmap -u 'http://target.com' --dbs",
+            "use exploit/multi/handler",
+            "echo 'Skill is the only credential that matters.'",
+            "./hack_the_gibson --init"
+        ];
+        let i = 0, j = 0, currentPhrase = [], isDeleting = false, isEnd = false;
+        function loop() {
+            isEnd = false;
+            document.getElementById('typing-effect').innerHTML = currentPhrase.join('');
+            if (i < phrases.length) {
+                if (!isDeleting && j <= phrases[i].length) {
+                    currentPhrase.push(phrases[i][j]);
+                    j++;
+                    document.getElementById('typing-effect').innerHTML = currentPhrase.join('');
+                }
+                if (isDeleting && j <= phrases[i].length) {
+                    currentPhrase.pop();
+                    j--;
+                    document.getElementById('typing-effect').innerHTML = currentPhrase.join('');
+                }
+                if (j == phrases[i].length) {
+                    isEnd = true;
+                    isDeleting = true;
+                }
+                if (isDeleting && j === 0) {
+                    currentPhrase = [];
+                    isDeleting = false;
+                    i++;
+                    if (i == phrases.length) i = 0;
+                }
+            }
+            const spedUp = Math.random() * (80 - 50) + 50;
+            const normalSpeed = Math.random() * (300 - 200) + 200;
+            const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed;
+            setTimeout(loop, time);
+        }
+        loop();
+    </script>
+    <!-- DATE UPDATE SCRIPT -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            const options = { year: 'numeric', month: 'short', day: 'numeric' };
+            const formattedDate = now.toLocaleDateString('en-US', options);
+            
+            const dateElement = document.querySelector('.copyright');
+            if (dateElement) {
+                dateElement.innerHTML = dateElement.innerHTML.replace(
+                    '[Current Date]', 
+                    formattedDate + ' | System Uptime: ' + Math.floor(Math.random() * 90 + 10) + ' days'
+                );
+            }
+        });
+    </script>
+</body>
+</html>
